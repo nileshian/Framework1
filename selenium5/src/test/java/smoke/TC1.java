@@ -15,6 +15,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class TC1 {
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws InterruptedException {
+		//this comment is added for git verification
 //		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver= new ChromeDriver();
